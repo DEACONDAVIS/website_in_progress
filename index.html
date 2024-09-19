@@ -1,18 +1,12 @@
 <!-- Code by Deacon Davis -->
 <!-- For Web Development 1 -->
-<!-- instructor Kim Gross -->
+<!-- Instructor Kim Gross -->
 
 <!DOCTYPE html>
 <html>
     <head>
-<!-- Although not techincally necesary, I thought it would be fun to change the title of the page so I do so here -->
-        <style>
-            h1{
-                text-align: center;
-                color:rgb(119, 0, 255);
-                font-family: cursive;
-            }
-        </style>
+        <!-- After learning how to attach my CSS file, I removed my <style> element and instead I linked my CSS page-->
+    <link rel="stylesheet" href="styles.css" />
 <!-- Here I set the title of the page, so that when you have it open, the tab will say The Library of Incorrect Facts -->
         <title>
             The Library of Incorrect Facts
@@ -21,7 +15,11 @@
 <body>
 <h1>The Library of Incorrect Facts</h1>
 <!-- Here I add the links for my webpage using the <a> attribute -->
+<!-- I also added the division topnav to my links, so that I can make the navigation bar them in my stylesheet. -->
+<div class="topnav">
 <a href="Conspiracy.html">Conspiracy Theories</a> <a href="links.html">Sources (links)</a> <a href="About_pg.html">About Page</a>
+</div>
+
 <p>
     This website is home to the Library of Incorrect Facts. Our purpose is to:
 </p>
@@ -38,8 +36,8 @@
 <!-- Here I used an ordered list <ol> just for fun, but I could use it if I needed the items in the list in a specific order -->
     <ol>
         <li>Conspiracy theories</li>
-        <li>Interesting food recipes</li>
-        <li>Awful vacation ideas</li>
+        <li class="possible">Interesting food recipes</li>
+        <li class="possible">Awful vacation ideas</li>
     </ol>
 </body>
 </html>
