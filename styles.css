@@ -27,6 +27,7 @@
         background-color: navy;
       }
       .topnav a {
+        font-family: monospace;
         float: left;
         display: block;
         color: rgb(0, 186, 0);
@@ -66,28 +67,30 @@
       }
 /* Here I edit some default values like the font and color of the paragraph element, the unordered list element, the ordered list element, and the description list element */
   p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:green;
   }
 ul{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:green;
     li{
+        font-family: 'Times New Roman', Times, serif;
         list-style-type:armenian;
     }
 }
 ol{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:green;
     li{
         list-style-type:georgian;
+        font-family:'Times New Roman', Times, serif;
     }
 }
 dl{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:green;
     dt{
-        font-family: 'Times New Roman', Times, serif;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:green;
     }
     dd{
@@ -96,8 +99,8 @@ dl{
     }
 }
 .possible{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color:blue;
+    color:rgb(255, 255, 255);
 }
 /* I really liked making the first part of the CSS for my website, I thought it was really fun and new */
