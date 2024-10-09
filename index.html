@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
+   <head>
         <!-- After learning how to attach my CSS file, I removed my <style> element and instead I linked my CSS page-->
     <link rel="stylesheet" href="styles.css" />
 <!-- Here I set the title of the page, so that when you have it open, the tab will say The Library of Incorrect Facts -->
@@ -13,13 +13,15 @@
         </title>
     </head>
 <body>
-<h1>The Library of Incorrect Facts</h1>
+    
+<h1 id="title_class">The Library of Incorrect Facts</h1>
 <!-- Here I add the links for my webpage using the <a> attribute -->
 <!-- I also added the division topnav to my links, so that I can make the navigation bar them in my stylesheet. -->
 <div class="topnav">
 <a href="Conspiracy.html">Conspiracy Theories</a> <a href="links.html">Sources (links)</a> <a href="About_pg.html">About Page</a>
 </div>
 
+<div id="Mainbody">
 <p>
 <!-- See the reason for the span element in my CSS file. -->
     <span>
@@ -44,5 +46,7 @@
         <li class="possible">Interesting food recipes</li>
         <li class="possible">Awful vacation ideas</li>
     </ol>
+</div>
+
 </body>
 </html>

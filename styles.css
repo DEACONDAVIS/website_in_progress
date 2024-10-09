@@ -5,29 +5,43 @@
 
  /* First I change the overall background color of the website */
  body{
-    background-image: url("tsunami.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #4E3629;
+    margin: 0px;
  }
+
+ @keyframes mymove{
+  from{text-shadow:none;}
+    to{text-shadow: 2px 3px rgb(0, 0, 0);}
+
+ }
+
+#title_class{
+  margin: 0px;
+  width: 1500px;
+  height: 65px;
+  background-color:cadetblue;
+  animation: mymove 0.5s forwards ease-in;
+}
  /* Even though I have a bar for navigation (which you will see me make in a second) I still want my other links to look good, so here I changed the unvisited and hover colors of my links */
  a:hover{
  color: rgb(119, 0, 255);
  }
  a{
-    color:rgb(0, 0, 0);
+    color:rgb(0, 170, 255);
  }
  /* Here I change the font, allignment, and color of the 1st header */
  h1{
         text-align: center;
-        color:rgb(119, 0, 255);
+        color: rgb(255, 221, 0);
         font-family: cursive;
+        animation: mymove 5s forwards ease-in;
+        font-size:xx-large
     }
 /* So I made this top navigation bar for another website that I made for fun. if you visit https://deacondavis.github.io/JaradtheWebsite/index.html you can see the original. */
 /* I had some different needs for this one so I edited some default and hover colors for the links. I learned how to make this over summer break thanks to "youtube university"*/
     .topnav {
         overflow: hidden;
-        background-color: navy;
+        background-color: #A88F68;
       }
       .topnav a {
         font-family: monospace;
@@ -68,27 +82,31 @@
           border: 1px solid #ccc;
         }
       }
-/* I learned that you can use span to only cover the element. without span, the highlight goes on for a whole line */
-.sources>span{
-  background-color: rgb(255, 255, 255);
-  text-decoration: none;
+/* Here I edit some default values like the font and color of the paragraph element, the unordered list element, the ordered list element, and the description list element */
+#Mainbody{
+  background-color:bisque;
+  padding: 10px;
+  width: 700px;
+  height: 700px;
+  margin: auto;
 }
-/* I fixed my source links, so they are more readable and easy to find */
-.sources{
+#Mainbody_Sources{
+  background-color:bisque;
+  padding: 10px;
+  width: 700px;
+  height: 700px;
+  margin: auto;
   text-align: center;
   font-size: xx-large;
 }
-/* Here I edit some default values like the font and color of the paragraph element, the unordered list element, the ordered list element, and the description list element */
-  p>span{
+p>span{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkred;
-    background-color: rgb(153, 153, 153);
+    color:cadetblue;
   }
 /* After changing the background to an image, my colors didn't really make sense, so I changed the default text color to dark red */
 ul{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkred;
-    background-color: white;
+    color:cadetblue;
     li{
         font-family: 'Times New Roman', Times, serif;
         list-style-type:armenian;
@@ -96,8 +114,7 @@ ul{
 }
 ol{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkred;
-    background-color: white;
+    color:cadetblue;
     li{
         list-style-type:georgian;
         font-family:'Times New Roman', Times, serif;
@@ -105,19 +122,19 @@ ol{
 }
 dl{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkred;
+    color:cadetblue;
     dt{
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkred;
+    color:cadetblue;
     }
     dd{
         font-family: 'Times New Roman', Times, serif;
-    color: darkred;
+    color:cadetblue;
     }
 }
 .possible{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color:rgb(0, 0, 0);
+    color:rgb(60, 0, 255);
 }
 /* I really liked making the first part of the CSS for my website, I thought it was really fun and new */
