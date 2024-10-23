@@ -5,6 +5,8 @@
 <!DOCTYPE html>
 <html>
    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- After learning how to attach my CSS file, I removed my <style> element and instead I linked my CSS page-->
     <link rel="stylesheet" href="styles.css" />
 <!-- Here I set the title of the page, so that when you have it open, the tab will say The Library of Incorrect Facts -->
@@ -13,40 +15,43 @@
         </title>
     </head>
 <body>
-    
-<h1 id="title_class">The Library of Incorrect Facts</h1>
+    <h1 id="title_class">The Library of Incorrect Facts</h1>
 <!-- Here I add the links for my webpage using the <a> attribute -->
 <!-- I also added the division topnav to my links, so that I can make the navigation bar them in my stylesheet. -->
-<div class="topnav">
-<a href="Conspiracy.html">Conspiracy Theories</a> <a href="links.html">Sources (links)</a> <a href="About_pg.html">About Page</a>
-</div>
+    <div class="topnav sticky_top">
+    <a href="Conspiracy.html">Conspiracy Theories</a> <a href="links.html">Sources (links)</a> <a href="About_pg.html">About Page</a><a href="EEEE.html">Awful Vacation Ideas</a>
+    </div>
+        <div id="Mainbody">
+        <p>
+        <!-- See the reason for the span element in my CSS file. -->
+            <span>
+            This website is home to the Library of Incorrect Facts. Our purpose is to:
+            </span>
+        </p>
+        <!-- Since the below list doesn't have to be in any specific order, I used an unordered list <ul> -->
+            <ul>
+                <li>Spread misinformation</li>
+                <li>Drop the nationwide intelligence</li>
+                <li>Befuddle old people</li>
+            </ul>
+        <p>
+        <!-- See the CSS for the reasoning behind the span element-->
+            <span>
+            Besides incorrect facts this website will also be home to:
+            </span>
+        </p>
+        <!-- Here I used an ordered list <ol> just for fun, but I could use it if I needed the items in the list in a specific order -->
+            <ol>
+                <li>Conspiracy theories</li>
+                <li class="possible">Interesting food recipes</li>
+                <li>Awful vacation ideas</li>
+            </ol>
 
-<div id="Mainbody">
-<p>
-<!-- See the reason for the span element in my CSS file. -->
-    <span>
-    This website is home to the Library of Incorrect Facts. Our purpose is to:
-    </span>
-</p>
-<!-- Since the below list doesn't have to be in any specific order, I used an unordered list <ul> -->
-    <ul>
-        <li>Spread misinformation</li>
-        <li>Drop the nationwide intelligence</li>
-        <li>Befuddle old people</li>
-    </ul>
-<p>
-<!-- See the CSS for the reasoning behind the span element-->
-    <span>
-    Besides incorrect facts this website will also be home to:
-    </span>
-</p>
-<!-- Here I used an ordered list <ol> just for fun, but I could use it if I needed the items in the list in a specific order -->
-    <ol>
-        <li>Conspiracy theories</li>
-        <li class="possible">Interesting food recipes</li>
-        <li class="possible">Awful vacation ideas</li>
-    </ol>
-</div>
+            <div style="height: 1000px;"></div>
 
-</body>
+            <p> 
+                <span> There are some real shenanigans afoot here </span>
+            </p>
+        </div>
+    </body>
 </html>
