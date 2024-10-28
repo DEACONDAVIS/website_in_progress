@@ -5,7 +5,7 @@
 
  /* First I change the overall background color of the website */
  body{
-    background-image: linear-gradient(navy, white, white);
+    background-color: bisque;
     margin: 0px;
  }
 
@@ -16,7 +16,7 @@
  }
 #title_class{
   margin: 0px;
-  width: 1500px;
+  width: 1440px;
   height: 65px;
   background-color:cadetblue;
   animation: mymove 0.5s forwards ease-in;
@@ -91,14 +91,14 @@
       }
 /* Here I edit some default values like the font and color of the paragraph element, the unordered list element, the ordered list element, and the description list element */
 #Mainbody{
-  background-color:bisque;
+  background-color: white;
   padding: 10px;
   width: 700px;
   height: 1500px;
   margin: auto;
 }
 #Mainbody_Sources{
-  background-color:bisque;
+  background-color: white;
   padding: 10px;
   width: 700px;
   height: 700px;
@@ -139,9 +139,36 @@ dl{
     color:cadetblue;
     }
 }
-.possible{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    color:rgb(60, 0, 255);
+table, th, td{
+  border: 2px solid black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:cadetblue;
+}
+
+#_ideas{
+  border: 5px solid rgb(255, 221, 0);
+  width: 500px;
+  height: 40px;
+}
+input[type=submit]{
+  border: 1px solid darkgreen;
+  height: 52px;
+  width: 70px;
+  background-color: darkgreen;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: small;
+}
+input[type=submit]:hover {
+  border-color: green;
+  background-color: green;
+  color: white;
+  cursor: pointer; 
+  transform: scale(1.3); 
+  transition: 0.3s ease-in-out; 
+}
+input[type=submit]:active {
+  transform: scale(1.0);
+  transition: 0.1s ease-in-out;
 }
 /* I really liked making the first part of the CSS for my website, I thought it was really fun and new */
