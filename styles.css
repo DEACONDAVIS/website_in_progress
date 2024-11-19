@@ -36,6 +36,10 @@
         animation: mymove 5s forwards ease-in;
         font-size:xx-large
     }
+h2{
+  color: cadetblue;
+  font-family:cursive;
+}
 /* So I made this top navigation bar for another website that I made for fun. if you visit https://deacondavis.github.io/JaradtheWebsite/index.html you can see the original. */
 /* I had some different needs for this one so I edited some default and hover colors for the links. I learned how to make this over summer break thanks to "youtube university"*/
 /* I made the link bar sticky so it follows your scrolling */
